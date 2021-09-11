@@ -37,3 +37,13 @@ Lets make a simple CRUD objection with only the restful API. a user should be ab
 Package Installation
 
     $ npm install 'package_name'
+    
+#### **install objection orm**;
+     $ sudo apt-get update
+     $ knex init`  knexfile.js created
+    
+ update knexfile (change client to mysql, change connection , add direcotory of migrations)
+     $ knex migrate: make table_name
+ user table will created 
+     $ knex migrate: latest`
+ 
